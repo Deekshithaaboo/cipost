@@ -28,7 +28,7 @@ def get_albums():
     payload = {}
     headers = {}
     response = requests.request("GET", url, headers=headers, data=payload)
-    return jsonify({"data": response.json(), "status": "success", "status_code": 288})
+    return jsonify({"data": response.json(), "status": "successful", "status_code": 288})
 
 
 if __name__ == "__main__":
